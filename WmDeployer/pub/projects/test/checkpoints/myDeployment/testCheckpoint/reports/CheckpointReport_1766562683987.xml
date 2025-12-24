@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="deploySimulateRollback.xsl"?><Report projectType="Runtime" status="0" type="Checkpoint">
+<depCandidate>myDeployment</depCandidate>
+<depMapName>myDeploymentMap</depMapName>
+<buildName>myBuild</buildName>
+<checkpointName>testCheckpoint</checkpointName>
+<projectDescription/>
+<startTime>Wed Dec 24 07:51:23 GMT 2025</startTime>
+<projectName>test</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2025-12-24 07:51:24 GMT" type="EXTRACT">
+<messagebody>[DEP.0001.0051] Extracted IS package "test"</messagebody>
+<attributes>
+<set mode="Deploy" name="test" type="IS"/>
+<targetserver name="IS_TEST"/>
+<asset name="test_testCheckpoint_1766562683997" type="Package"/>
+</attributes>
+</message>
+<message timeStamp="2025-12-24 07:51:24 GMT" type="EXTRACT">
+<messagebody>[DEP.0001.0052] Extracted IS package "test" node ACLs</messagebody>
+<attributes>
+<set mode="Deploy" name="test" type="IS"/>
+<targetserver name="IS_TEST"/>
+<asset name="packageName" type="PackageNodeACL"/>
+</attributes>
+</message>
+</messages>
+<endTime>2025-12-24 07:51:24 GMT</endTime>
+</Report>

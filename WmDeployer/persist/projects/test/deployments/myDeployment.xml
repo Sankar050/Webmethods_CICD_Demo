@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.16.1" class="java.beans.XMLDecoder">
+ <object class="com.wm.deployer.deploy.Deployment" id="Deployment0">
+  <void property="auditReports">
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\test\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1766562328411.xml</string>
+   </void>
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\test\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1766562474158.xml</string>
+   </void>
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\test\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1766562688153.xml</string>
+   </void>
+  </void>
+  <void property="beginTimestamp">
+   <string>2025-12-24 07:51:28 GMT</string>
+  </void>
+  <void property="buildName">
+   <string>myBuild</string>
+  </void>
+  <void property="checkpointReports">
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\test\checkpoints\myDeployment\testCheckpoint\reports\CheckpointReport_1766562324248.xml</string>
+   </void>
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\test\checkpoints\myDeployment\testCheckpoint\reports\CheckpointReport_1766562683987.xml</string>
+   </void>
+  </void>
+  <void property="checkpointed">
+   <boolean>true</boolean>
+  </void>
+  <void property="deployed">
+   <boolean>true</boolean>
+  </void>
+  <void property="deploymentId">
+   <string>1b997229-cf61-42f6-be9a-bfd31d5a9fd8</string>
+  </void>
+  <void property="deploymentMapName">
+   <string>myDeploymentMap</string>
+  </void>
+  <void property="description">
+   <string></string>
+  </void>
+  <void property="dummyReports">
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\test\targets\myDeploymentMap\reports\deploySimulateRollback.xsl</string>
+   </void>
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\test\targets\myDeploymentMap\reports\myDeploymentMap_previewReport_1766562320811.html</string>
+   </void>
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\test\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1766562328411.html</string>
+   </void>
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\test\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1766562474158.html</string>
+   </void>
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\test\targets\myDeploymentMap\reports\myDeploymentMap_previewReport_1766562680471.html</string>
+   </void>
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\test\targets\myDeploymentMap\reports\myDeploymentMap_auditReport_1766562688153.html</string>
+   </void>
+  </void>
+  <void property="name">
+   <string>myDeployment</string>
+  </void>
+  <void property="preDeployReports">
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\test\targets\myDeploymentMap\reports\myDeploymentMap_previewReport_1766562320811.xml</string>
+   </void>
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\test\targets\myDeploymentMap\reports\myDeploymentMap_previewReport_1766562680471.xml</string>
+   </void>
+  </void>
+  <void property="projectName">
+   <string>test</string>
+  </void>
+  <void property="user">
+   <string>Administrator</string>
+  </void>
+  <void property="version">
+   <string>1.0</string>
+  </void>
+ </object>
+</java>

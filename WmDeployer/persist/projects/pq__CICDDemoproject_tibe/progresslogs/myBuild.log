@@ -1,0 +1,9 @@
+2025-12-24 09:19:21 GMT Initiating Progress Report for the Build operation
+2025-12-24 09:19:21 GMT Starting deployer build for project CICD_Demo_project
+2025-12-24 09:19:21 GMT Processing IS source server local
+2025-12-24 09:19:21 GMT Initiating add operation on package cicd_demo to the build
+2025-12-24 09:19:21 GMT Done with the add operation on package cicd_demo to the build
+2025-12-24 09:19:21 GMT Initiating add operation on acls Default, Internal
+2025-12-24 09:19:21 GMT Done with the add operation on acls Default, Internal
+2025-12-24 09:19:21 GMT Completed processing IS source server local
+2025-12-24 09:19:21 GMT Completed generating Progress Report for the Build operation.

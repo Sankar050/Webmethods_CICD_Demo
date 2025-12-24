@@ -1,0 +1,36 @@
+2025-12-24 07:51:20 GMT Initiating the Progress Report for Simulate operation.
+2025-12-24 07:51:20 GMT Starting simulate of myDeployment
+2025-12-24 07:51:20 GMT Processing deployment set test
+2025-12-24 07:51:20 GMT Processing deployment to target server IS_TEST
+2025-12-24 07:51:20 GMT Initiating Simulate operation on package test (target server : IS_TEST)
+2025-12-24 07:51:20 GMT Done with the Simulate operation on package test (target server : IS_TEST)
+2025-12-24 07:51:20 GMT Initiating Simulate operation on node ACLs (target server : IS_TEST)
+2025-12-24 07:51:20 GMT Done with the Simulate operation on node ACLs (target server : IS_TEST)
+2025-12-24 07:51:20 GMT Completed processing deployment to target server IS_TEST
+2025-12-24 07:51:20 GMT Completed processing deployment set test
+2025-12-24 07:51:20 GMT Completed simulate of myDeployment
+2025-12-24 07:51:20 GMT Completed generating Progress Report for the Simulate operation.
+2025-12-24 07:51:23 GMT Initiating Progress Report for the Checkpoint operation
+2025-12-24 07:51:23 GMT Starting deployer checkpoint for project for deployment myDeployment
+2025-12-24 07:51:23 GMT Processing IS source server IS_TEST
+2025-12-24 07:51:23 GMT Initiating add operation on package test to the checkpoint
+2025-12-24 07:51:24 GMT Done with the add operation on package test to the checkpoint
+2025-12-24 07:51:24 GMT Completed processing IS source server IS_TEST
+2025-12-24 07:51:24 GMT Completed deployer checkpoint for project for deployment myDeployment
+2025-12-24 07:51:24 GMT Completed generating Progress Report for the Checkpoint operation.
+2025-12-24 07:51:28 GMT Initiating the Progress Report for Deploy operation.
+2025-12-24 07:51:28 GMT Starting deployment of myDeployment
+2025-12-24 07:51:28 GMT Processing deployment set test
+2025-12-24 07:51:28 GMT Processing deployment to target server IS_TEST
+2025-12-24 07:51:28 GMT Initiating Deploy operation on package test (target server : IS_TEST)
+2025-12-24 07:51:28 GMT Done with the Deploy operation on package test (target server : IS_TEST)
+2025-12-24 07:51:28 GMT Initiating resume triggers operation (target server : IS_TEST)
+2025-12-24 07:51:28 GMT Done with the resume triggers operation (target server : IS_TEST)
+2025-12-24 07:51:28 GMT Initiating resume adapter notifications operation (target server : IS_TEST)
+2025-12-24 07:51:28 GMT Done with the resume adapter notifications operation (target server : IS_TEST)
+2025-12-24 07:51:28 GMT Initiating Deploy operation on node ACLs (target server : IS_TEST)
+2025-12-24 07:51:28 GMT Done with the Deploy operation on node ACLs (target server : IS_TEST)
+2025-12-24 07:51:28 GMT Completed processing deployment to target server IS_TEST
+2025-12-24 07:51:28 GMT Completed processing deployment set test
+2025-12-24 07:51:28 GMT Completed deployment of myDeployment
+2025-12-24 07:51:28 GMT Completed generating Progress Report for the Deploy operation.

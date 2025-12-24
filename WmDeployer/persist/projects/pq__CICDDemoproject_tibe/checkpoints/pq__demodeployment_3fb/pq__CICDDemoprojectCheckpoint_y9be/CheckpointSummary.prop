@@ -1,0 +1,10 @@
+#
+#Wed Dec 24 09:20:11 GMT 2025
+Status=1
+Project=CICD_Demo_project
+Description=TBD
+User=Administrator
+DeploymentCandidate=demo_deployment
+Timestamp=1766568011299
+SizeOnDisk=4878
+Name=CICD_Demo_projectCheckpoint

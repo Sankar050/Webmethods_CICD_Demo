@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="encodeutf8">true</value>
+  <array name="imports" type="value" depth="1">
+    <value>java.io.IOException</value>
+    <value>java.text.SimpleDateFormat</value>
+    <value>java.util.Date</value>
+    <value>java.util.Locale</value>
+    <value>com.softwareag.entirex.idl.IDLtoProperties</value>
+    <value>com.softwareag.entirex.idl.ParserException</value>
+    <value>com.softwareag.util.IDataMap</value>
+    <value>com.wm.data.IData</value>
+    <value>com.wm.data.IDataCursor</value>
+    <value>com.wm.data.IDataUtil</value>
+  </array>
+  <value name="shared"></value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+</Values>

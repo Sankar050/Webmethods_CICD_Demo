@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="deploySimulateRollback.xsl"?><Report projectType="Runtime" status="0" type="Checkpoint">
+<depCandidate>myDeployment</depCandidate>
+<depMapName>myDeploymentMap</depMapName>
+<buildName>myBuild</buildName>
+<checkpointName>testCheckpoint</checkpointName>
+<projectDescription/>
+<startTime>Wed Dec 24 07:45:24 GMT 2025</startTime>
+<projectName>test</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2025-12-24 07:45:24 GMT" type="MISSING">
+<messagebody>[DEP.0001.0100] Added IS package "test" to the missing list</messagebody>
+<attributes>
+<set mode="Deploy" name="test" type="IS"/>
+<targetserver name="IS_TEST"/>
+<asset name="test_testCheckpoint_1766562324260" type="Package"/>
+</attributes>
+</message>
+</messages>
+<endTime>2025-12-24 07:45:24 GMT</endTime>
+</Report>

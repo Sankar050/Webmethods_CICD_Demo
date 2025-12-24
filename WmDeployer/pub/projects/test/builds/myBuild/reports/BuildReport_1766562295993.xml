@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="deploySimulateRollback.xsl"?><Report projectType="Runtime" status="0" type="Build">
+<buildName>myBuild</buildName>
+<projectDescription/>
+<buildDesc/>
+<startTime>Wed Dec 24 07:44:55 GMT 2025</startTime>
+<projectName>test</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2025-12-24 07:44:56 GMT" type="EXTRACT">
+<messagebody>[DEP.0001.0051] Extracted IS package "test"</messagebody>
+<attributes>
+<set mode="Deploy" name="test" type="IS"/>
+<sourceserver name="local"/>
+<asset name="test_myBuild_1766562296031" type="Package"/>
+</attributes>
+</message>
+<message timeStamp="2025-12-24 07:44:56 GMT" type="EXTRACT">
+<messagebody>[DEP.0001.0052] Extracted IS package "test" node ACLs</messagebody>
+<attributes>
+<set mode="Deploy" name="test" type="IS"/>
+<sourceserver name="local"/>
+<asset name="packageName" type="PackageNodeACL"/>
+</attributes>
+</message>
+</messages>
+<endTime>2025-12-24 07:44:56 GMT</endTime>
+</Report>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.16.1" class="java.beans.XMLDecoder">
+ <object class="com.wm.deployer.deploy.Deployment" id="Deployment0">
+  <void property="auditReports">
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\pq__CICDDemoproject_tibe\targets\pq__demomap_3va\reports\pq__demomap_3va_auditReport_1766568015281.xml</string>
+   </void>
+  </void>
+  <void property="beginTimestamp">
+   <string>2025-12-24 09:20:15 GMT</string>
+  </void>
+  <void property="buildName">
+   <string>myBuild</string>
+  </void>
+  <void property="checkpointReports">
+   <void method="add">
+    <string>C:\SoftwareAG\IntegrationServer\instances\default\packages\WmDeployer\pub\projects\pq__CICDDemoproject_tibe\checkpoints\pq__demodeployment_3fb\pq__CICDDemoprojectCheckpoint_y9be\reports\CheckpointReport_1766568011299.xml</string>
+   </void>
+  </void>
+  <void property="checkpointed">
+   <boolean>true</boolean>
+  </void>
+  <void property="deployed">
+   <boolean>true</boolean>
+  </void>
+  <void property="deploymentId">
+   <string>8924904b-75c3-49ad-9eb6-1f1be0e45912</string>
+  </void>
+  <void property="deploymentMapName">
+   <string>demo_map</string>
+  </void>
+  <void property="description">
+   <string></string>
+  </void>
+  <void property="dummyReports">
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\pq__CICDDemoproject_tibe\targets\pq__demomap_3va\reports\deploySimulateRollback.xsl</string>
+   </void>
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\pq__CICDDemoproject_tibe\targets\pq__demomap_3va\reports\pq__demomap_3va_previewReport_1766568007169.html</string>
+   </void>
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\pq__CICDDemoproject_tibe\targets\pq__demomap_3va\reports\pq__demomap_3va_auditReport_1766568015281.html</string>
+   </void>
+  </void>
+  <void property="name">
+   <string>demo_deployment</string>
+  </void>
+  <void property="preDeployReports">
+   <void method="add">
+    <string>packages\WmDeployer\pub\projects\pq__CICDDemoproject_tibe\targets\pq__demomap_3va\reports\pq__demomap_3va_previewReport_1766568007169.xml</string>
+   </void>
+  </void>
+  <void property="projectName">
+   <string>CICD_Demo_project</string>
+  </void>
+  <void property="user">
+   <string>Administrator</string>
+  </void>
+  <void property="version">
+   <string>1.0</string>
+  </void>
+ </object>
+</java>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Values version="2.0">
+    <!--
+
+        These connection declarations decide which input fields (<Element>) appear when
+        creating a connection via Designer (right click on *.idl file)
+
+    -->
+    <getConnectionDescription>
+        %switch connection%
+        %case 'CobolConverterConnection'%
+        <connection name="CobolConverterConnection">
+            <Group name="Cobol Converter">
+                <Element name="encoding" label="&amp;Encoding" errortext="Encoding"
+                         type="ServerCombo" default="cp037">
+                    %include encodings.xml%
+                </Element>
+            </Group>
+        </connection>
+        %case 'ImsConnection'%
+        <connection name="ImsConnection">
+            <Group name="Connection to IMS Connect">
+                <Element name="host" label="&amp;Hostname" errortext="Hostname"
+                         type="Combo" mandatory="true"/>
+                <Element name="port" label="&amp;Port" errortext="Port" type="Combo"
+                         validation="Number" mandatory="true"/>
+                <Element name="userid" label="RACF &amp;User ID" errortext="RACF User ID"
+                         type="Combo"/>
+                <Element name="password" label="RACF &amp;Password" errortext="RACF Password"
+                         type="Text" password="true"/>
+                <Element name="datastoreid" label="&amp;DataStore ID"
+                         errortext="DataStore ID" type="Combo" mandatory="true"/>
+                <Element name="encoding" label="&amp;Encoding" errortext="Encoding"
+                         type="ServerCombo" default="cp037">
+                    %include encodings.xml%
+                </Element>
+            </Group>
+        </connection>
+
+        %case 'AS400Connection'%
+        <connection name="AS400Connection">
+            <Group name="Connection to IBM® AS/400®">
+                <Element name="host" label="&amp;Hostname" errortext="Hostname"
+                         type="Combo" mandatory="true"/>
+                <Element name="userid" label="&amp;User ID" errortext="User ID"
+                         type="Combo" mandatory="true"/>
+                <Element name="password" label="&amp;Password" errortext="Password"
+                         type="Text" password="true"/>
+                <Element name="encoding" label="&amp;Encoding" errortext="Encoding"
+                         type="ServerCombo" default="cp037">
+                    %include encodings.xml%
+                </Element>
+            </Group>
+        </connection>
+
+        %case 'CicsConnection'%
+        <connection name="CicsConnection">
+            <Group name="Connection to CICS ECI">
+                <Element name="host" label="&amp;Hostname" errortext="Hostname"
+                         type="Combo" mandatory="true"/>
+                <Element name="port" label="&amp;Port" errortext="Port" type="Combo"
+                         validation="Number" mandatory="true"/>
+                <Element name="userid" label="RACF &amp;User ID" errortext="RACF User ID"
+                         type="Combo"/>
+                <Element name="password" label="RACF &amp;Password" errortext="RACF Password"
+                         type="Text" password="true"/>
+                <Element name="transactionName" label="&amp;Transaction Name"
+                         errortext="Transaction Name" default="CPMI" type="Text" mandatory="true"/>
+                <Element name="encoding" label="&amp;Encoding" errortext="Encoding"
+                         type="ServerCombo" default="cp037">
+                    %include encodings.xml%
+                </Element>
+            </Group>
+        </connection>
+
+        %case 'CicsIpicConnection'%
+        <connection name="CicsIpicConnection">
+            <Group name="Connection to CICS IPIC">
+                <Element name="host" label="&amp;Hostname" errortext="Hostname"
+                         type="Combo" mandatory="true"/>
+                <Element name="port" label="&amp;Port" errortext="Port" type="Combo"
+                         validation="Number" mandatory="true"/>
+                <Element name="sendsessions" label="&amp;Send Sessions" errortext="Send Sessions" type="Combo"
+                         validation="Number" mandatory="true" default="100"/>
+                <Element name="networkid" label="&amp;Network ID" errortext="Network ID"
+                         type="Combo"/>
+                <Element name="applid" label="&amp;Application ID" errortext="Application ID"
+                         type="Combo"/>
+                <Element name="userid" label="RACF &amp;User ID" errortext="RACF User ID"
+                         type="Combo"/>
+                <Element name="password" label="RACF Pass&amp;word" errortext="RACF Password"
+                         type="Text" password="true"/>
+                <Element name="cicsIpicTransaction" label="&amp;Transaction Name" errortext="Transaction Name"
+                         type="Combo" default="CPMI"/>
+                <Element name="encoding" label="&amp;Encoding" errortext="Encoding" type="ServerCombo" default="cp037">
+                    %include encodings.xml%
+                </Element>
+            </Group>
+        </connection>
+
+        %case 'CicsSocketListenerConnection'%
+        <connection name="CicsSocketListenerConnection">
+            <Group name="Connection to CICS Socket Listener">
+                <Element name="host" label="&amp;Hostname" errortext="Hostname"
+                         type="Combo" mandatory="true"/>
+                <Element name="port" label="&amp;Port" errortext="Port" type="Combo"
+                         validation="Number" mandatory="true"/>
+                <Element name="userid" label="RACF &amp;User ID" errortext="RACF User ID"
+                         type="Combo"/>
+                <Element name="password" label="RACF &amp;Password" errortext="RACF Password"
+                         type="Text" password="true"/>
+                <Element name="transactionName" label="&amp;Transaction Name"
+                         errortext="Transaction Name" default="XRFE" type="Text" mandatory="true"/>
+                <Element name="encoding" label="&amp;Encoding" errortext="Encoding"
+                         type="ServerCombo" default="cp037">
+                    %include encodings.xml%
+                </Element>
+            </Group>
+        </connection>
+
+        %case 'RpcConnection'%
+        <connection name="RpcConnection">
+            <Group name="RPC Connection to EntireX">
+                <Element name="brokerID" property="brokerID" label="&amp;Broker ID"
+                         errortext="Broker ID" type="Combo" mandatory="true" default="localhost:1971"/>
+                <Element name="serverAddress" property="serverClass,serverName,service"
+                         label="&amp;Server Address" errortext="Server Address" type="Combo"
+                         mandatory="true" default="RPC/SRV1/CALLNAT"/>
+                <Element name="userid" label="&amp;User ID" errortext="User ID" type="Combo"/>
+                <Element name="password" label="&amp;Password" errortext="Password" type="Text" password="true"/>
+                <Element name="encoding" label="&amp;Encoding" errortext="Encoding" type="ServerCombo">
+                    %include encodings.xml%
+                </Element>
+            </Group>
+        </connection>
+
+        %case 'DirectRpcConnection'%
+        <connection name="DirectRpcConnection">
+            <Group name="Direct RPC Connection to EntireX">
+                <Element name="serverAddress" property="serverClass,serverName,service"
+                         label="&amp;Server Address" errortext="Server Address" type="Combo"
+                         mandatory="true" default="RPC/SRV1/CALLNAT"/>
+            </Group>
+        </connection>
+
+        %case 'DirectRpcListenerConnection'%
+        <connection name="DirectRpcListenerConnection" listener="true">
+            <Group name="Direct RPC Listener Connection to EntireX">
+                <Element name="serverAddress" property="serverClass,serverName,service"
+                         label="&amp;Server Address" errortext="Server Address" type="Combo"
+                         mandatory="true" default="RPC/SRV1/CALLNAT"/>
+            </Group>
+        </connection>
+
+        %case 'DirectReliableRpcListenerConnection'%
+        <connection name="DirectReliableRpcListenerConnection" listener="true">
+            <Group name="Direct Reliable RPC Listener Connection to EntireX">
+                <Element name="serverAddress" property="serverClass,serverName,service"
+                         label="&amp;Server Address" errortext="Server Address" type="Combo"
+                         mandatory="true" default="RPC/SRV1/CALLNAT"/>
+            </Group>
+        </connection>
+
+        %case 'RpcListenerConnection'%
+        <connection name="RpcListenerConnection" listener="true">
+            <Group name="RPC Listener Connection to EntireX">
+                <Element name="brokerID" property="brokerID" label="&amp;Broker ID" errortext="Broker ID"
+                         type="Combo" mandatory="true" default="localhost:1971"/>
+                <Element name="serverAddress" property="serverClass,serverName,service"
+                         label="&amp;Server Address" errortext="Server Address" type="Combo"
+                         mandatory="true" default="RPC/SRV1/CALLNAT"/>
+                <Element name="userid" label="&amp;User ID" errortext="User ID" type="Combo"/>
+                <Element name="password" label="&amp;Password" errortext="Password" type="Text" password="true"/>
+                <Element name="encoding" label="&amp;Encoding" errortext="Encoding" type="ServerCombo">
+                    %include encodings.xml%
+                </Element>
+            </Group>
+        </connection>
+
+        %case 'ReliableRpcConnection'%
+        <connection name="ReliableRpcConnection">
+            <Group name="Reliable RPC Connection to EntireX">
+                <Element name="brokerID" property="brokerID" label="&amp;Broker ID" errortext="Broker ID"
+                         type="Combo" mandatory="true" default="localhost:1971"/>
+                <Element name="serverAddress" property="serverClass,serverName,service"
+                         label="&amp;Server Address" errortext="Server Address" type="Combo"
+                         mandatory="true" default="RPC/SRV1/CALLNAT"/>
+                <Element name="userid" label="&amp;User ID" errortext="User ID" type="Combo"/>
+                <Element name="password" label="&amp;Password" errortext="Password" type="Text" password="true"/>
+                <Element name="encoding" label="&amp;Encoding" errortext="Encoding" type="ServerCombo">
+                    %include encodings.xml%
+                </Element>
+            </Group>
+        </connection>
+
+        %case 'ReliableRpcListenerConnection'%
+        <connection name="ReliableRpcConnection" listener="true">
+            <Group name="Reliable RPC Listener Connection to EntireX">
+                <Element name="brokerID" property="brokerID" label="&amp;Broker ID" errortext="Broker ID"
+                         type="Combo" mandatory="true" default="localhost:1971"/>
+                <Element name="serverAddress" property="serverClass,serverName,service"
+                         label="&amp;Server Address" errortext="Server Address" type="Combo"
+                         mandatory="true" default="RPC/SRV1/CALLNAT"/>
+                <Element name="userid" label="&amp;User ID" errortext="User ID" type="Combo"/>
+                <Element name="password" label="&amp;Password" errortext="Password" type="Text" password="true"/>
+                <Element name="encoding" label="&amp;Encoding" errortext="Encoding" type="ServerCombo">
+                    %include encodings.xml%
+                </Element>
+            </Group>
+        </connection>
+
+        %case 'ApplinXConnection'%
+        <connection name="ApplinXConnection">
+            <Group name="Connection to ApplinX Server">
+                <Element name="host" label="&amp;Hostname" errortext="Hostname" property="ApplinXHost"
+                         type="Combo" mandatory="true"/>
+                <Element name="port" label="&amp;Port" errortext="Port" type="Combo" property="ApplinXPort"
+                         validation="Number" mandatory="true"/>
+            </Group>
+        </connection>
+
+        %case 'ACIConnection'%
+        <connection name="ACIConnection">
+            <Group name="Connection to an ACI Server">
+                <Element name="brokerID" property="brokerID" label="&amp;Broker ID" errortext="Broker ID"
+                         type="Combo" mandatory="true" default="localhost:1971"/>
+                <Element name="serverAddress" property="serverClass,serverName,service"
+                         label="&amp;Server Address" errortext="Server Address" default="ACI/*/SERVER"
+                         type="Combo" mandatory="true" hint="An '*' is replaced by the IDL program name at runtime."/>
+                <Element name="userid" label="&amp;User ID" errortext="User ID" type="Combo"/>
+                <Element name="password" label="&amp;Password" errortext="Password" type="Text" password="true"/>
+            </Group>
+        </connection>
+        %end%
+
+
+    </getConnectionDescription>
+</Values>

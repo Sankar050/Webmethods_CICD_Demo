@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="deploySimulateRollback.xsl"?><Report projectType="Runtime" status="2" type="Deploy">
+<depCandidate>myDeployment</depCandidate>
+<depMapName>myDeploymentMap</depMapName>
+<buildName>myBuild</buildName>
+<projectDescription/>
+<startTime>2025-12-24 07:45:28 GMT</startTime>
+<projectName>test</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2025-12-24 07:45:28 GMT" type="WARNING">
+<messagebody>[DEP.0005.0248] The following target dependency(ies) was ignored: 
+"Default, Internal'."</messagebody>
+<attributes>
+<set mode="Deploy" name="test" type="IS"/>
+<targetserver name="IS_TEST"/>
+<asset name="" type=""/>
+</attributes>
+</message>
+<message timeStamp="2025-12-24 07:45:28 GMT" type="ADD">
+<messagebody>[DEP.0005.0159] The Package: "test", has been put into the inbound directory.</messagebody>
+<attributes>
+<set mode="Deploy" name="test" type="IS"/>
+<targetserver name="IS_TEST"/>
+<asset name="test" type="Package"/>
+</attributes>
+</message>
+<message timeStamp="2025-12-24 07:45:28 GMT" type="ADD">
+<messagebody>test package installed but not activated.</messagebody>
+<attributes>
+<set mode="Deploy" name="test" type="IS"/>
+<targetserver name="IS_TEST"/>
+<asset name="test" type="Package"/>
+</attributes>
+</message>
+<message timeStamp="2025-12-24 07:45:28 GMT" type="ERROR">
+<messagebody>[DEP.0005.0326] An error occurred while deploying package "test".  Item "Default:test" could not be loaded because of reason "[ISS.0026.9109] Already registered in Default". The package may have partially loaded; please check your target server.</messagebody>
+<attributes>
+<set mode="Deploy" name="test" type="IS"/>
+<targetserver name="IS_TEST"/>
+<asset name="test" type="Package"/>
+</attributes>
+</message>
+<message timeStamp="2025-12-24 07:45:28 GMT" type="UPDATE">
+<messagebody>test package activated.</messagebody>
+<attributes>
+<set mode="Deploy" name="test" type="IS"/>
+<targetserver name="IS_TEST"/>
+<asset name="package" type="Package"/>
+</attributes>
+</message>
+<message timeStamp="2025-12-24 07:45:28 GMT" type="MESSAGE">
+<messagebody>[DEP.0005.1236] There is no UM connected to target: "IS_TEST".  Thus, any Publishable Document Types cannot be synchronized.</messagebody>
+<attributes>
+<set mode="Deploy" name="test" type="IS"/>
+<targetserver name="IS_TEST"/>
+<asset name="" type="Package"/>
+</attributes>
+</message>
+<message timeStamp="2025-12-24 07:45:28 GMT" type="ADD">
+<messagebody>The Execute ACL: "Internal" has been associated with component: "Default".</messagebody>
+<attributes>
+<set mode="Deploy" name="test" type="IS"/>
+<targetserver name="IS_TEST"/>
+<asset name="Internal" type="ACL"/>
+</attributes>
+</message>
+</messages>
+<endTime>2025-12-24 07:45:28 GMT</endTime>
+</Report>

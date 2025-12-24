@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="deploySimulateRollback.xsl"?><Report projectType="Runtime" status="0" type="Build">
+<buildName>myBuild</buildName>
+<projectDescription/>
+<buildDesc/>
+<startTime>Wed Dec 24 09:19:21 GMT 2025</startTime>
+<projectName>CICD_Demo_project</projectName>
+<user>Administrator</user>
+<messages>
+<message timeStamp="2025-12-24 09:19:21 GMT" type="EXTRACT">
+<messagebody>[DEP.0001.0051] Extracted IS package "cicd_demo"</messagebody>
+<attributes>
+<set mode="Deploy" name="demo_set" type="IS"/>
+<sourceserver name="local"/>
+<asset name="CICD_Demo_project_myBuild_1766567961051" type="Package"/>
+</attributes>
+</message>
+<message timeStamp="2025-12-24 09:19:21 GMT" type="EXTRACT">
+<messagebody>[DEP.0001.0052] Extracted IS package "cicd_demo" node ACLs</messagebody>
+<attributes>
+<set mode="Deploy" name="demo_set" type="IS"/>
+<sourceserver name="local"/>
+<asset name="packageName" type="PackageNodeACL"/>
+</attributes>
+</message>
+<message timeStamp="2025-12-24 09:19:21 GMT" type="EXTRACT">
+<messagebody>[DEP.0001.0048] Extracted IS ACL "Default"</messagebody>
+<attributes>
+<set mode="Deploy" name="demo_set" type="IS"/>
+<sourceserver name="local"/>
+<asset name="Default" type="ACLGroup"/>
+</attributes>
+</message>
+<message timeStamp="2025-12-24 09:19:21 GMT" type="EXTRACT">
+<messagebody>[DEP.0001.0048] Extracted IS ACL "Internal"</messagebody>
+<attributes>
+<set mode="Deploy" name="demo_set" type="IS"/>
+<sourceserver name="local"/>
+<asset name="Internal" type="ACLGroup"/>
+</attributes>
+</message>
+</messages>
+<endTime>2025-12-24 09:19:21 GMT</endTime>
+</Report>

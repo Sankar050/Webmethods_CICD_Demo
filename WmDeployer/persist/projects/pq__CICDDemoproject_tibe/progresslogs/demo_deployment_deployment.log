@@ -1,0 +1,46 @@
+2025-12-24 09:20:07 GMT Initiating the Progress Report for Simulate operation.
+2025-12-24 09:20:07 GMT Starting simulate of demo_deployment
+2025-12-24 09:20:07 GMT Processing deployment set demo_set
+2025-12-24 09:20:07 GMT Processing deployment to target server IS_TEST
+2025-12-24 09:20:07 GMT Initiating Simulate operation on acl Default (target server : IS_TEST)
+2025-12-24 09:20:07 GMT Done with the Simulate operation on acl Default (target server : IS_TEST)
+2025-12-24 09:20:07 GMT Initiating Simulate operation on acl Internal (target server : IS_TEST)
+2025-12-24 09:20:07 GMT Done with the Simulate operation on acl Internal (target server : IS_TEST)
+2025-12-24 09:20:07 GMT Initiating Simulate operation on package cicd_demo (target server : IS_TEST)
+2025-12-24 09:20:07 GMT Done with the Simulate operation on package cicd_demo (target server : IS_TEST)
+2025-12-24 09:20:07 GMT Initiating Simulate operation on node ACLs (target server : IS_TEST)
+2025-12-24 09:20:07 GMT Done with the Simulate operation on node ACLs (target server : IS_TEST)
+2025-12-24 09:20:07 GMT Completed processing deployment to target server IS_TEST
+2025-12-24 09:20:07 GMT Completed processing deployment set demo_set
+2025-12-24 09:20:07 GMT Completed simulate of demo_deployment
+2025-12-24 09:20:07 GMT Completed generating Progress Report for the Simulate operation.
+2025-12-24 09:20:11 GMT Initiating Progress Report for the Checkpoint operation
+2025-12-24 09:20:11 GMT Starting deployer checkpoint for project for deployment demo_deployment
+2025-12-24 09:20:11 GMT Processing IS source server IS_TEST
+2025-12-24 09:20:11 GMT Initiating add operation on package cicd_demo to the checkpoint
+2025-12-24 09:20:11 GMT Done with the add operation on package cicd_demo to the checkpoint
+2025-12-24 09:20:11 GMT Initiating add operation on acls Default, Internal
+2025-12-24 09:20:11 GMT Done with the add operation on acls Default, Internal
+2025-12-24 09:20:11 GMT Completed processing IS source server IS_TEST
+2025-12-24 09:20:11 GMT Completed deployer checkpoint for project for deployment demo_deployment
+2025-12-24 09:20:11 GMT Completed generating Progress Report for the Checkpoint operation.
+2025-12-24 09:20:15 GMT Initiating the Progress Report for Deploy operation.
+2025-12-24 09:20:15 GMT Starting deployment of demo_deployment
+2025-12-24 09:20:15 GMT Processing deployment set demo_set
+2025-12-24 09:20:15 GMT Processing deployment to target server IS_TEST
+2025-12-24 09:20:15 GMT Initiating Deploy operation on acl Default (target server : IS_TEST)
+2025-12-24 09:20:15 GMT Done with the Deploy operation on acl Default (target server : IS_TEST)
+2025-12-24 09:20:15 GMT Initiating Deploy operation on acl Internal (target server : IS_TEST)
+2025-12-24 09:20:15 GMT Done with the Deploy operation on acl Internal (target server : IS_TEST)
+2025-12-24 09:20:15 GMT Initiating Deploy operation on package cicd_demo (target server : IS_TEST)
+2025-12-24 09:20:15 GMT Done with the Deploy operation on package cicd_demo (target server : IS_TEST)
+2025-12-24 09:20:15 GMT Initiating resume triggers operation (target server : IS_TEST)
+2025-12-24 09:20:15 GMT Done with the resume triggers operation (target server : IS_TEST)
+2025-12-24 09:20:15 GMT Initiating resume adapter notifications operation (target server : IS_TEST)
+2025-12-24 09:20:15 GMT Done with the resume adapter notifications operation (target server : IS_TEST)
+2025-12-24 09:20:15 GMT Initiating Deploy operation on node ACLs (target server : IS_TEST)
+2025-12-24 09:20:15 GMT Done with the Deploy operation on node ACLs (target server : IS_TEST)
+2025-12-24 09:20:15 GMT Completed processing deployment to target server IS_TEST
+2025-12-24 09:20:15 GMT Completed processing deployment set demo_set
+2025-12-24 09:20:15 GMT Completed deployment of demo_deployment
+2025-12-24 09:20:15 GMT Completed generating Progress Report for the Deploy operation.
